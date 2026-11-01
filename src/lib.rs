@@ -4,6 +4,8 @@
 //! inputs; they are not a linear IR-01 -> IR-02 conversion.
 
 pub mod codec;
+pub mod constexpr;
 pub mod ir;
+pub mod verify;
 
 pub use ir::*;
